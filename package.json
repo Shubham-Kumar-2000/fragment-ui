@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Shubham-Kumar-2000/fragment-ui.git"
   },
   "exports": {
-    "./": "./src/components/"
+    "/": "./src/components/"
   },
   "keywords": [
     "fragment",
@@ -29,19 +29,24 @@
   },
   "homepage": "https://github.com/Shubham-Kumar-2000/fragment-ui#readme",
   "devDependencies": {
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react-native": "^3.11.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-react": "^7.21.5",
     "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "@typescript-eslint/parser": "^4.26.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "husky": "^6.0.0",
     "nodemon": "^2.0.7",
-    "prettier": "2.2.1",
-    "husky": "^6.0.0"
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.2",
+    "react-native-vector-icons": "^8.1.0"
   }
 }
