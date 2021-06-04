@@ -1,0 +1,47 @@
+{
+  "name": "fragment-ui",
+  "version": "1.0.0",
+  "description": "A react native ui library for fragment based components.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-Kumar-2000/fragment-ui.git"
+  },
+  "exports": {
+    "./": "./src/components/"
+  },
+  "keywords": [
+    "fragment",
+    "ui",
+    "react",
+    "native",
+    "ui",
+    "library"
+  ],
+  "author": "Shubham Kumar <shukhu10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shubham-Kumar-2000/fragment-ui/issues"
+  },
+  "homepage": "https://github.com/Shubham-Kumar-2000/fragment-ui#readme",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react-native":"^3.11.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-react": "^7.21.5",
+    "@typescript-eslint/eslint-plugin":"latest",
+    "eslint-plugin-import":"^2.22.1",
+    "eslint-plugin-jsx-a11y":"^6.4.1",
+    "eslint-plugin-react-hooks":"^4.2.0",
+    "@typescript-eslint/parser":"^4.26.0",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1",
+    "husky": "^6.0.0"
+  }
+}
