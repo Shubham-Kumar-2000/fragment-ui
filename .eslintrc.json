@@ -54,9 +54,14 @@
                 "bracketSpacing": true,
                 "jsxBracketSameLine": false,
                 "parser": "flow",
-                "arrowParens": "always",
+                "arrowParens": "always"
             }
         ]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     },
     "globals": {
         "window": true,
