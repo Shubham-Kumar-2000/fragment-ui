@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Shubham-Kumar-2000/fragment-ui.git"
   },
   "exports": {
-    "/": "./src/components/"
+    "./": "./src/components/"
   },
   "keywords": [
     "fragment",
@@ -45,8 +45,8 @@
     "prettier": "2.2.1"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-native": "^0.64.2",
-    "react-native-vector-icons": "^8.1.0"
+    "@types/react": "^17.0.9",
+    "@types/react-native": "^0.64.10",
+    "@types/react-native-vector-icons": "^6.4.6"
   }
 }
